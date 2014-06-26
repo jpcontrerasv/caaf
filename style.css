@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	height:100%;
+	font-family: 'crimson_textitalic';
+}
+@font-face {
+    font-family: 'crimson_textitalic';
+    src: url('fonts/crimsontext-italic-webfont.eot');
+    src: url('fonts/crimsontext-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/crimsontext-italic-webfont.woff') format('woff'),
+         url('fonts/crimsontext-italic-webfont.ttf') format('truetype'),
+         url('fonts/crimsontext-italic-webfont.svg#crimson_textitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*reset jp*/
+.box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.fcenter {
+	margin:0 auto;
+}
+.fwidth {
+	width:100%;
+}
+*, p, a {
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+.ocultar {
+	display:none;
+	visibility:hidden;
+}
+.mostrar {
+	display:block;
+	visibility:visible;
+}
+.ceropacidad {
+	opacity:0;
+}
+h1 {
+	font-family: 'crimson_textitalic'!important;
+}
+
+#menu {
+	position:fixed;
+}
+#menu ul {
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+}
+#menu ul li {
+	display:inline-block;
+}
+#inicio {
+	background:url(img/buen-trato.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:587px;	
+}
+#bajada-inicio {
+	height:450px;
+}
+#mision {
+	background:url(img/integracion.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:480px;
+}
