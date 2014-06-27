@@ -9,7 +9,10 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href="style.css" rel="stylesheet">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,21 +35,13 @@
 	<section id="inicio" class="box fwidth">
 
       <section class="slider">
-        <div class="flexslider">
-          <ul class="slides">
-            <li>
-  	    	    <img src="img/buen-trato.png" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="img/equidad.png" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="img/integracion.png" />
-  	    		</li>
-  	    		<li>
-  	    	    <img src="img/parentalidad-positiva.png" />
-  	    		</li>
-          </ul>
+        <div id="slider-home" class="flexslider">
+            <ul class="slides">
+                <li><img src="img/buen-trato.png" /></li>
+                <li><img src="img/equidad.png" /></li>
+                <li><img src="img/integracion.png" /></li>
+                <li><img src="img/parentalidad-positiva.png" /></li>
+            </ul>
         </div>
       </section>
     	
@@ -69,7 +64,7 @@
     <section id="mision" class="box fwidth">
         <div class="container">
         	<div class="col-lg-12 text-left">
-            	<h2 class="titulo-seccion">Nuestra <br>Misión</h2>
+            	<h2 class="titulo-seccion claro">Nuestra <br>Misión</h2>
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center">
@@ -79,7 +74,54 @@
                 <h1>Brindar atención integral a familias y los sujetos que la componen, considerando sus particularidades, desde una mirada psicosociolegal que integre un enfoque ecológico y de derecho, así como también, los recursos familiares, contribuyendo a la promoción, prevención, protección y fortalecimiento de las dinámicas relacionales en pos del buen trato. </h1>
             </div>
         </div>
-	</section>    
+	</section>
+
+    <section id="galeria" class="box fwidth">
+        <div class="container">
+        	<div class="col-lg-12 text-left">
+            	<h2 class="titulo-seccion oscuro">Galería</h2><br><br>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+                <ul>
+                	<li><a href="#"><img src="img/img-galeria.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+	</section>
+    
+    <section id="vision" class="box fwidth">
+        <div class="container">
+        	<div class="col-lg-12 text-left">
+            	<h2 class="titulo-seccion oscuro">Nuestra <br>Visión</h2>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center">
+            	&nbsp;
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                <h1>Contribuir a la generación de nuevas políticas inclusivas desde las necesidades que presentan las familias actuales, respetando sus diferencias y problemáticas especificas a través de intervenciones profesionales  que propendan al buen trato y respeto de los derechos fundamentales de los individuos. </h1>
+            </div>
+        </div>
+	</section>
+
+
+    <section id="recomendamos" class="box fwidth">
+        <div class="container">
+        	<div class="col-lg-12 text-left">
+            	<h2 class="titulo-seccion claro">Recomendamos</h2>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-center">
+            	&nbsp;
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-left">
+                <h1>&nbsp;</h1>
+            </div>
+        </div>
+	</section>
+    
+        
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

@@ -17,7 +17,7 @@ $(function(){
   SyntaxHighlighter.all();
 });
 $(window).load(function(){
-  $('.flexslider').flexslider({
+  $('#slider-home').flexslider({
 	animation: "slide",
 	controlNav: false,
   });

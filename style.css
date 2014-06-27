@@ -34,8 +34,11 @@ html, body {
 	width:100%;
 }
 *, p, a {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
+}
+ul li {
+	list-style:none;
 }
 a {
 	text-decoration:none;
@@ -98,7 +101,28 @@ h1 {
 }
 h2.titulo-seccion {
 	font-weight:700;
-	color:#e1ded7;
-	font-family:"report";
+	font-family: 'Varela Round', sans-serif;
 	text-transform:uppercase;
+}
+h2.claro {
+	color:#e1ded7;
+}
+h2.oscuro {
+	color:#000;
+}
+#galeria {
+	background:#e1ded7;
+	color:#000;
+	padding:30px 0 20px 0;
+}
+
+#vision {
+	background:#e1ded7;
+	color:#000;
+	padding:30px 0 143px 0;
+}
+#recomendamos {
+	background:#e54e4e;
+	color:#000;
+	padding:62px 0 100px 0;
 }
