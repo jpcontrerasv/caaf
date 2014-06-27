@@ -22,3 +22,8 @@ $(window).load(function(){
 	controlNav: false,
   });
 });
+
+$('#menu ul li a').click(function () {
+	$('#menu ul li a').not(this).removeClass('active');
+	$(this).addClass('active');
+});		
